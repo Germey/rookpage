@@ -233,6 +233,9 @@ body{
 	color:#e1b346;
 }
 /* blog */
+#blog{
+	padding: 50px 0 100px 0;
+}
 #blog .content{
 	overflow:hidden;
 }
@@ -264,6 +267,7 @@ body{
 	background-color:#0c2131;
 	width:100%;
 	height:80px;
+	padding: 20px 0 20px 0;
 }
 #bottom #bottom1 .container{
 	overflow:hidden;

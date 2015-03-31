@@ -1,0 +1,298 @@
+/* 通用*/
+body{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+.container{
+	width:900px;
+	margin:auto;
+}
+ .title{
+	width:100%;
+	color:#d9b346;
+	font-size:20px;
+	text-align:center;
+	padding:20px;
+}
+.item{
+	float:left;
+}
+.item .name{
+	color:#FFF;
+	font-size:18px;
+}
+.item .detail{
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+}
+.item .des{
+	color:#FCFCFC;
+	font-size:13px;
+	font-family:Arial;
+}
+
+/* 导航栏 */
+#navigation{
+	width:100%;
+	background-color:#061723;
+}
+#navigation .container{
+	width:900px;
+	margin:auto;
+	background-color:#061723;
+	overflow:hidden;
+	color:#FFF;
+}
+#logo{
+	float:left;
+	font-size: 30px;
+	padding: 20px;
+	color:#d9b346;
+}
+#navi-list{
+	float:right;
+	margin-top: 12px;
+}
+#navi-list ul{
+	float:left;
+	list-style:none;
+}
+#navi-list li{
+	float:left;
+	text-decoration:none;
+}
+#navi-list li a{
+	float:left;
+	text-decoration:none;
+	color:#d9b346;
+	margin: 0 20px;
+}
+
+/* WORKS */
+#work{
+	width:100%;
+	background-color:#FEFEFE;
+	padding:50px 0 30px 0;
+}
+#work .title{
+	width:100%;
+	color:#d9b346;
+	font-size:20px;
+	text-align:center;
+	padding:20px;
+}
+#work .container{
+	width:900px;
+	margin:auto;
+}
+#work .content{
+	overflow:hidden;
+}
+#work .content .item{
+	float:left;
+	width:300px;
+	text-align:center;
+	margin:20px 0 20px 0;
+}
+#work .content .item .name{
+	color:#d9b346;
+	font-size:20px;
+}
+#work .content .item .des{
+	color:#bbb;
+	font-size:12px;
+}
+#work .content .item img{
+	width:260px;
+	height:170px;
+	font-size:12px;
+}
+
+/* services */
+#services{
+	width:100%;
+	background-color:#d9b346;
+	padding: 50px 0;
+}
+#services .container{
+	width:900px;
+	margin:auto;
+}
+#services .title{
+	overflow:hidden;
+	width:320px;
+	margin:auto;
+	padding:50px;
+}
+#services .title .tit{
+	float:left;
+	font-size:20px;
+	letter-spacing: 2px;
+}
+#services .title #separator{
+	color:#222;
+	margin:0 10px;
+}
+#services .title #our-services{
+	color:#FFF;
+}
+#services .title #our-process{
+	color:#0a1b28;
+}
+#services .content{
+	overflow:hidden;
+}
+#services .item{
+	float:left;
+	width:225px;
+	text-align:center;
+}
+#services .item .name{
+	color:#FFF;
+	font-size:18px;
+}
+#services .item .detail{
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+}
+#services .item .des{
+	color:#FCFCFC;
+	font-size:13px;
+	font-family:Arial;
+}
+
+/* touch */
+#contact{
+	width:100%;
+}
+#contact #want-us{
+	text-align:center;
+	padding:50px 0;
+	border-bottom:1px solid #eee;
+	font-family:Arial;
+}
+#contact #want-us a{
+	padding:10px 20px;
+	margin:0 20px;
+	border:1px solid #d9b346;
+	text-decoration:none;
+	color:#d9b346;
+	font-size:18px;
+}
+#contact #athens{
+	width:100%;
+	position:relative;
+}
+#contact #athens img{
+	width:100%;
+	height:600px;
+}
+#contact .content{
+	position:absolute;
+	top:130px;
+	left:15%;
+	right:15%;
+}
+#contact .content p{
+	text-align:center;
+}
+#contact .content #contact-p1{
+	color:#d9b346;
+	font-family:Arial;
+	font-size:15px;
+}
+#contact .content #contact-p2{
+	font-size:130px;
+	color:#0a1b28;
+	padding:0px;
+	margin: 40px 0;
+	font-weight:bold;
+	letter-spacing:20px;
+}
+#contact .content #contact-p3{
+	font-size:50px;
+	color:#e1b346;
+	padding:0px;
+	margin: 20px 0;
+	font-weight:bold;
+	letter-spacing:10px;
+}
+#contact .content #contact-p4{
+	font-size:16px;
+	border:1px solid #e1b346;
+	padding:10px 50px;
+	max-width:150px;
+	margin: 30px auto;
+	letter-spacing:5px;
+}
+#contact .content #contact-p4 a{
+	text-decoration:none;
+	color:#e1b346;
+}
+/* blog */
+#blog .content{
+	overflow:hidden;
+}
+#blog .item {
+	width:300px;
+	text-align:center;
+}
+#blog .item img{
+	width:250px;
+	height:160px;
+}
+#blog .title{
+	padding: 40px 20px;
+}
+#blog .item .name{
+	color:#d9b346;
+}
+#blog .item .brief{
+	color:#000;
+	font-size:13px;
+	font-family:Arial;
+}
+#blog .item .des{
+	color:#d9b346;
+}
+
+/* bottom */
+#bottom #bottom1{
+	background-color:#0c2131;
+	width:100%;
+	height:80px;
+}
+#bottom #bottom1 .container{
+	overflow:hidden;
+}
+#bottom #bottom1 img{
+	float:left;
+	margin:20px;
+}
+#bottom #bottom1 p{
+	float:left;
+	color:#1b3d57;
+	font-size:16px;
+	margin:35px 0 20px 10px;
+}
+#bottom #bottom2{
+	background-color:#071723;
+	width:100%;
+	height:90px;
+}
+#bottom #bottom2 .container{
+	overflow:hidden;
+}
+#bottom #bottom2 .left{
+	float:left;
+	padding:20px 20px;
+	color:#1b3d57;
+}
+#bottom #bottom2 .right{
+	float:right;
+	padding:20px 20px;
+	color:#1b3d57;
+}

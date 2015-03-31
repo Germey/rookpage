@@ -1,0 +1,119 @@
+
+.m_banner
+{
+	background: #fff;
+	height: 388px;
+	position: relative;
+	width: 100%;
+}
+
+.m_banner .banner
+{
+	height: 388px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-position: center top;
+}
+
+.banner_ctrl
+{
+	height: 100px;
+	width: 960px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -480px;
+	z-index: 2;
+}
+
+.banner_ctrl a
+{
+	display: block;
+	width: 30px;
+	height: 100px;
+	background: url(images/banner_ctrl.png) no-repeat;
+	_background: url(images/banner_ctrl.jpg) no-repeat;
+	position: absolute;
+	opacity: .1;
+	filter: alpha(opacity=10);
+	-moz-opacity: 0.1;
+}
+
+.banner_ctrl a.prev
+{
+	left: -18%;
+}
+
+.banner_ctrl a.next
+{
+	right: -18%;
+	background-position: -30px 0;
+}
+
+.m_banner .banner .main_c
+{
+	position: relative;
+	z-index: 10;
+	height: 388px;
+}
+
+.m_banner .main_c .countdown
+{
+	position: absolute;
+	right: 160px;
+	top: 165px;
+}
+
+.m_banner .main_c .countdown span
+{
+	display: block;
+	float: left;
+	width: 33px;
+	height: 44px;
+	margin: 0 2px;
+	font-size: 34px;
+	line-height: 44px;
+	text-align: center;
+	color: #62441e;
+}
+.caro-content{
+	width:500px;
+	margin:auto;
+	text-align:center;
+}
+.caro-content .hr{
+	width:200px;
+	text-align:center;
+	margin:20px auto;
+}
+.caro-content .name{
+	color:#d9b346;
+	font-size:35px;
+	margin:90px 0 20px 0;
+	font-weight:bold;
+}
+.caro-content .des{
+	color:#FFF;
+	font-family:Arial;
+	font-size:12px;
+	margin:30px auto;
+}
+.caro-content .bt{
+	margin:50px;
+}
+.caro-content .bt a{
+	text-decoration:none;
+	color:#d9b346;
+	padding:10px 50px;
+	cursor: pointer;
+	border:1px solid #d9b346;
+}
+.banner_ctrl a{
+	font-size:30px;
+	line-height:100px;
+	text-decoration:none;
+	text-align:center;
+	color:#111;
+}
